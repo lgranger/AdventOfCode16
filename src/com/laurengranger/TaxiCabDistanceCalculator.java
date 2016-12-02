@@ -1,26 +1,31 @@
 package com.laurengranger;
 
-import static java.lang.Character.getNumericValue;
-import static java.lang.StrictMath.abs;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 public class TaxiCabDistanceCalculator {
     private String input;
+    private boolean finished = false;
+    private String hqCoordinates;
+    private Map<Integer, List> coordinatesMap;
 
     public TaxiCabDistanceCalculator(String easter_Bunny_Recruiting_Doc_Input){
         input = easter_Bunny_Recruiting_Doc_Input;
+        HashMap<Integer, List<Integer>> coordinatesMap = new HashMap<Integer, List<Integer>>();
     }
 
-    public int DistaceToBunnyHQ(){
+    public String DistaceToBunnyHQ(){
         int xVal = 0;
         int yVal = 0;
         boolean onXAxis = true;
-        boolean moveLeft = true;
+        boolean moveLeft;
         String directionFacing = "N";
 
+        String[] turnDir = input.split(", ");
 
-        String[] arr = input.split(", ");
-
-        for ( String splitInput : arr) {
+        for ( String splitInput : turnDir) {
             String moveAmountChar = splitInput.substring(1);
             int moveAmount = Integer.parseInt(moveAmountChar);
             if (splitInput.startsWith("R")) {
@@ -42,13 +47,29 @@ public class TaxiCabDistanceCalculator {
                 }
             }
             directionFacing = FindAndSetDirection(directionFacing, moveLeft);
+            BunnyHQCoordinates(xVal, yVal);
+            if (finished) {
+                return hqCoordinates;
+            }
             onXAxis = !onXAxis;
         }
+        return "no location found";
+    }
 
-        xVal = abs(xVal);
-        yVal = abs(yVal);
-        int sum = xVal + yVal;
-        return(sum);
+    public void BunnyHQCoordinates(int xVal, int yVal){
+        if (!coordinatesMap.containsKey(xVal)){
+            List yValues = coordinatesMap.get(xVal);
+            yValues.add(yVal);
+            coordinatesMap.put(xVal,yValues);
+        } else {
+            List yValues = coordinatesMap.get(xVal);
+            if (yValues.contains(yVal)) {
+                hqCoordinates = "(" + xVal + "," + yVal + ")";
+                finished = true;
+            } else {
+                yValues.add(yVal);
+            }
+        }
     }
 
     private String FindAndSetDirection (String directionFacing, boolean moveLeft) {
