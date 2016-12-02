@@ -1,5 +1,8 @@
 package com.laurengranger;
 
+import static java.lang.Character.getNumericValue;
+import static java.lang.StrictMath.abs;
+
 public class TaxiCabDistanceCalculator {
     private String input;
 
@@ -18,18 +21,21 @@ public class TaxiCabDistanceCalculator {
         String[] arr = input.split(", ");
 
         for ( String splitInput : arr) {
-            int moveAmount = splitInput.charAt(1);
+            String moveAmountChar = splitInput.substring(1);
+            int moveAmount = Integer.parseInt(moveAmountChar);
             if (splitInput.startsWith("R")) {
                 moveLeft = false;
+            } else {
+                moveLeft = true;
             }
             if (onXAxis) {
-                if (moveLeft) {
+                if (((directionFacing == "N") && moveLeft) || ((directionFacing == "S") && !moveLeft)) {
                     xVal = xVal - moveAmount;
                 } else {
                     xVal = xVal + moveAmount;
                 }
             } else {
-                if (moveLeft) {
+                if (((directionFacing == "W") && !moveLeft) || ((directionFacing == "E") && moveLeft)) {
                     yVal = yVal - moveAmount;
                 } else {
                     yVal = yVal + moveAmount;
@@ -39,6 +45,8 @@ public class TaxiCabDistanceCalculator {
             onXAxis = !onXAxis;
         }
 
+        xVal = abs(xVal);
+        yVal = abs(yVal);
         int sum = xVal + yVal;
         return(sum);
     }
