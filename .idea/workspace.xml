@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33422bee-1aaa-48df-9b98-4ca2611ab5a3" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/AdventOfCode16/com/laurengranger/TaxiCabDistanceCalculator.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/laurengranger/Main.java" afterPath="$PROJECT_DIR$/src/com/laurengranger/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/laurengranger/TaxiCabDistanceCalculator.java" afterPath="$PROJECT_DIR$/src/com/laurengranger/TaxiCabDistanceCalculator.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/laurengranger/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="165">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -39,34 +38,7 @@
             <state relative-caret-position="8385">
               <caret line="596" column="0" lean-forward="false" selection-start-line="596" selection-start-column="0" selection-end-line="596" selection-end-column="0" />
               <folding>
-                <element signature="e#0#40012#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#4246#4247#0" expanded="false" />
-                <element signature="e#4278#4279#0" expanded="false" />
-                <element signature="e#14985#14986#0" expanded="false" />
-                <element signature="e#15015#15016#0" expanded="false" />
-                <element signature="e#15343#15344#0" expanded="false" />
-                <element signature="e#15374#15375#0" expanded="false" />
-                <element signature="e#19907#19908#0" expanded="false" />
-                <element signature="e#19950#19951#0" expanded="false" />
-                <element signature="e#20319#20320#0" expanded="false" />
-                <element signature="e#20359#20360#0" expanded="false" />
-                <element signature="e#21348#21349#0" expanded="false" />
-                <element signature="e#21388#21389#0" expanded="false" />
-                <element signature="e#21879#21880#0" expanded="false" />
-                <element signature="e#21919#21920#0" expanded="false" />
-                <element signature="e#22432#22433#0" expanded="false" />
-                <element signature="e#22472#22473#0" expanded="false" />
-                <element signature="e#22924#22925#0" expanded="false" />
-                <element signature="e#22948#22949#0" expanded="false" />
-                <element signature="e#23994#23995#0" expanded="false" />
-                <element signature="e#24036#24037#0" expanded="false" />
-                <element signature="e#24380#24381#0" expanded="false" />
-                <element signature="e#24405#24406#0" expanded="false" />
-                <element signature="e#29974#29975#0" expanded="false" />
-                <element signature="e#30017#30018#0" expanded="false" />
-                <element signature="e#32148#32149#0" expanded="false" />
-                <element signature="e#32194#32195#0" expanded="false" />
+                <element signature="e#20871#20872#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -75,7 +47,7 @@
       <file leaf-file-name="String.java" pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/src.zip!/java/lang/String.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
+            <state relative-caret-position="45015">
               <caret line="3098" column="0" lean-forward="false" selection-start-line="3098" selection-start-column="0" selection-end-line="3098" selection-end-column="0" />
               <folding>
                 <element signature="e#121769#121770#0" expanded="true" />
@@ -87,17 +59,17 @@
       <file leaf-file-name="Integer.java" pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
+            <state relative-caret-position="11940">
               <caret line="829" column="0" lean-forward="false" selection-start-line="829" selection-start-column="0" selection-end-line="829" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TaxiCabDistanceCalculator.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TaxiCabDistanceCalculator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/laurengranger/TaxiCabDistanceCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-960">
+            <state relative-caret-position="30">
               <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -132,8 +104,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/laurengranger/TaxiCabDistance.java" />
-        <option value="$PROJECT_DIR$/src/com/laurengranger/Main.java" />
         <option value="$PROJECT_DIR$/src/com/laurengranger/TaxiCabDistanceCalculator.java" />
+        <option value="$PROJECT_DIR$/src/com/laurengranger/Main.java" />
       </list>
     </option>
   </component>
@@ -388,13 +360,12 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1992966" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1992966" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -411,6 +382,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -431,6 +403,52 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/laurengranger/Main.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/src.zip!/java/io/PrintStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8940">
+          <caret line="596" column="0" lean-forward="false" selection-start-line="596" selection-start-column="0" selection-end-line="596" selection-end-column="0" />
+          <folding>
+            <element signature="e#20871#20872#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46470">
+          <caret line="3098" column="0" lean-forward="false" selection-start-line="3098" selection-start-column="0" selection-end-line="3098" selection-end-column="0" />
+          <folding>
+            <element signature="e#121769#121770#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12435">
+          <caret line="829" column="0" lean-forward="false" selection-start-line="829" selection-start-column="0" selection-end-line="829" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/laurengranger/TaxiCabDistanceCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/laurengranger/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
@@ -442,34 +460,7 @@
         <state relative-caret-position="8385">
           <caret line="596" column="0" lean-forward="false" selection-start-line="596" selection-start-column="0" selection-end-line="596" selection-end-column="0" />
           <folding>
-            <element signature="e#0#40012#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#4246#4247#0" expanded="false" />
-            <element signature="e#4278#4279#0" expanded="false" />
-            <element signature="e#14985#14986#0" expanded="false" />
-            <element signature="e#15015#15016#0" expanded="false" />
-            <element signature="e#15343#15344#0" expanded="false" />
-            <element signature="e#15374#15375#0" expanded="false" />
-            <element signature="e#19907#19908#0" expanded="false" />
-            <element signature="e#19950#19951#0" expanded="false" />
-            <element signature="e#20319#20320#0" expanded="false" />
-            <element signature="e#20359#20360#0" expanded="false" />
-            <element signature="e#21348#21349#0" expanded="false" />
-            <element signature="e#21388#21389#0" expanded="false" />
-            <element signature="e#21879#21880#0" expanded="false" />
-            <element signature="e#21919#21920#0" expanded="false" />
-            <element signature="e#22432#22433#0" expanded="false" />
-            <element signature="e#22472#22473#0" expanded="false" />
-            <element signature="e#22924#22925#0" expanded="false" />
-            <element signature="e#22948#22949#0" expanded="false" />
-            <element signature="e#23994#23995#0" expanded="false" />
-            <element signature="e#24036#24037#0" expanded="false" />
-            <element signature="e#24380#24381#0" expanded="false" />
-            <element signature="e#24405#24406#0" expanded="false" />
-            <element signature="e#29974#29975#0" expanded="false" />
-            <element signature="e#30017#30018#0" expanded="false" />
-            <element signature="e#32148#32149#0" expanded="false" />
-            <element signature="e#32194#32195#0" expanded="false" />
+            <element signature="e#20871#20872#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -507,41 +498,14 @@
         <state relative-caret-position="8385">
           <caret line="596" column="0" lean-forward="false" selection-start-line="596" selection-start-column="0" selection-end-line="596" selection-end-column="0" />
           <folding>
-            <element signature="e#0#40012#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#4246#4247#0" expanded="false" />
-            <element signature="e#4278#4279#0" expanded="false" />
-            <element signature="e#14985#14986#0" expanded="false" />
-            <element signature="e#15015#15016#0" expanded="false" />
-            <element signature="e#15343#15344#0" expanded="false" />
-            <element signature="e#15374#15375#0" expanded="false" />
-            <element signature="e#19907#19908#0" expanded="false" />
-            <element signature="e#19950#19951#0" expanded="false" />
-            <element signature="e#20319#20320#0" expanded="false" />
-            <element signature="e#20359#20360#0" expanded="false" />
-            <element signature="e#21348#21349#0" expanded="false" />
-            <element signature="e#21388#21389#0" expanded="false" />
-            <element signature="e#21879#21880#0" expanded="false" />
-            <element signature="e#21919#21920#0" expanded="false" />
-            <element signature="e#22432#22433#0" expanded="false" />
-            <element signature="e#22472#22473#0" expanded="false" />
-            <element signature="e#22924#22925#0" expanded="false" />
-            <element signature="e#22948#22949#0" expanded="false" />
-            <element signature="e#23994#23995#0" expanded="false" />
-            <element signature="e#24036#24037#0" expanded="false" />
-            <element signature="e#24380#24381#0" expanded="false" />
-            <element signature="e#24405#24406#0" expanded="false" />
-            <element signature="e#29974#29975#0" expanded="false" />
-            <element signature="e#30017#30018#0" expanded="false" />
-            <element signature="e#32148#32149#0" expanded="false" />
-            <element signature="e#32194#32195#0" expanded="false" />
+            <element signature="e#20871#20872#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
+        <state relative-caret-position="45015">
           <caret line="3098" column="0" lean-forward="false" selection-start-line="3098" selection-start-column="0" selection-end-line="3098" selection-end-column="0" />
           <folding>
             <element signature="e#121769#121770#0" expanded="true" />
@@ -551,27 +515,27 @@
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
+        <state relative-caret-position="11940">
           <caret line="829" column="0" lean-forward="false" selection-start-line="829" selection-start-column="0" selection-end-line="829" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/laurengranger/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/laurengranger/TaxiCabDistanceCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-960">
+        <state relative-caret-position="30">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/laurengranger/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
